@@ -19,52 +19,55 @@ ul {
     padding: 0;
 }
 
-
 h2, section > p { text-align: center;
 padding:10px;
 margin-left: 20px;
 }
 
 article { 
-background: #fff;
-width: 600px;
-display: block;
+display:block;
+width: 100px;
 margin-left: auto;
 margin-right: auto;
 padding: 1em;
- }
-
-
-#cougar { 
-background: #CC6666;
 }
 
+p {
+  height: 400px;
+  width: 400px;
+ margin:0;
  }
-
-#lion { 
-background: #B26219; 
+ 
+.space { 
+line-height: .3em; 
 }
 
-#tiger { 
-background: #FFCC66; 
+.move { position: relative; 
+top: 100px;
+left: 300px; }
+
+div #cougar {float: left;
+background: #CC6666;}
+
+div #lion {float: left;
+background: #FFCC66; }
+
+div #tiger {float: left;
+background: #B26219;
 }
 
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 50%;
+     }
     
-    }
- 
  footer p { width: 50%;
         text-align: center;
         padding: 15px;
         margin-left: auto;
         margin-right: auto;
          }
-         
-        
-         
+             
 /* ----- suggested colors -----
    B26219 cinnamon
    FFD5AE pale peach 
@@ -86,7 +89,6 @@ img {
 
 a { color: #379CB2; }
 a:hover { color: #82E8FF; }
-
 
 nav {float: right;
 }
